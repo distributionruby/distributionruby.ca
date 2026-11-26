@@ -43,6 +43,21 @@ const translations = {
     valueTwoText: "Nous respectons votre politique de prix minimum (MAP) et vos directives, utilisons vos images et descriptions approuvées et signalons les contrefaçons et les fiches non autorisées.",
     valueThreeTitle: "Partenaire fiable",
     valueThreeText: "Entreprise enregistrée au Québec et inscrite aux taxes, paiements à temps, dossiers en ordre et un interlocuteur direct qui répond rapidement.",
+    partnersCombinedEyebrow: "POUR LES MARQUES ET LES DISTRIBUTEURS",
+    brandsTitle: "Vous êtes une marque?",
+    brandsLead: "Plus de ventes au Canada, sans perdre le contrôle de votre image.",
+    brandsList: "<li><strong>Authenticité :</strong> achats uniquement auprès de vous ou de vos distributeurs autorisés, factures à l'appui.</li><li><strong>Entente de revendeur :</strong> nous signons volontiers votre entente de revendeur autorisé, si vous le souhaitez.</li><li><strong>Respect des prix :</strong> votre politique de prix minimum (MAP) est toujours respectée.</li><li><strong>Protection de vos fiches :</strong> nous surveillons vos fiches Amazon.ca et signalons les vendeurs non autorisés et les contrefaçons.</li><li><strong>Fiches qui vendent :</strong> avec votre accord, nous proposons de meilleurs titres, photos et descriptions, écrits à partir des besoins réels des clients.</li><li><strong>Deux vitrines :</strong> Amazon.ca et notre boutique en ligne, en français et en anglais.</li>",
+    distributorsTitle: "Vous êtes un distributeur ou un grossiste?",
+    distributorsLead: "Un client organisé, facile à servir.",
+    distributorsList: "<li><strong>Paiement à la commande :</strong> par carte de crédit ou par virement, selon votre préférence. Aucun crédit à nous consentir.</li><li><strong>Dossier complet :</strong> NEQ, TPS et TVQ prêts sur demande.</li><li><strong>Une seule adresse de livraison :</strong> notre centre de préparation à Montréal.</li><li><strong>Respect des politiques de prix</strong> des marques que vous représentez.</li><li><strong>Compatible dropship :</strong> notre boutique en ligne peut faire expédier directement au client.</li><li><strong>Une relation qui grandit :</strong> nous ajoutons des produits de votre catalogue au fil du temps.</li>",
+    partnersProof: "Déjà client de distributeurs canadiens, nous vendons des produits de marques reconnues sur Amazon.ca.",
+    partnersButton: "Nous écrire →",
+    formName: "Nom", formCompany: "Entreprise", formEmail: "Courriel", formType: "Je suis",
+    formTypeBrand: "Une marque", formTypeDist: "Un distributeur ou un grossiste", formTypeOther: "Autre",
+    formMessage: "Message", formSend: "Envoyer →",
+    formSending: "Envoi en cours…", formOk: "Merci! Votre message a bien été envoyé. Nous vous répondrons sous 1 à 2 jours ouvrables.",
+    formError: "Oups, le message n'a pas pu être envoyé. Écrivez-nous directement à info@distributionruby.ca.",
+    formMissing: "Veuillez remplir votre nom, votre courriel et votre message.",
     contactEyebrow: 'Nous joindre',
     contactTitle: 'Parlons de vos produits',
     contactText: 'Vous représentez une marque ou distribuez des produits qui pourraient convenir au marché canadien? Écrivez-nous.',
@@ -63,16 +78,6 @@ const translations = {
     stepThreeText: "Vos produits sont reçus et préparés selon les normes d'Amazon par notre centre de préparation à Montréal.",
     stepFourTitle: "Vente sur Amazon.ca",
     stepFourText: "Vos produits sont stockés et expédiés par Amazon (FBA) : admissibles à Prime, livraison rapide et service client Amazon.",
-    brandsEyebrow: "POUR LES MARQUES",
-    brandsTitle: "Vous êtes une marque?",
-    brandsText: "Nous achetons vos produits uniquement auprès de vous ou de vos distributeurs autorisés, et nous les vendons en respectant votre politique de prix et votre image. Si vous cherchez un revendeur canadien sérieux sur Amazon.ca, parlons-en.",
-    brandsButton: "Demander une autorisation de revente →",
-    brandsHref: "mailto:info@distributionruby.ca?subject=Autorisation%20de%20revente",
-    distributorsEyebrow: "POUR LES DISTRIBUTEURS",
-    distributorsTitle: "Vous êtes un distributeur?",
-    distributorsText: "Nous sommes un acheteur organisé : documents d'entreprise prêts, paiements à temps et volonté d'ajouter des produits de votre catalogue au fil de la relation.",
-    distributorsButton: "Ouvrir un compte avec nous →",
-    distributorsHref: "mailto:info@distributionruby.ca?subject=Ouverture%20de%20compte",
     documentsTitle: "Documents disponibles sur demande",
     documentsText: "Pour faciliter l'ouverture de compte, nous fournissons sur demande : la preuve d'enregistrement de l'entreprise (NEQ) et nos numéros de TPS et de TVQ.",
     footerText: "© Distribution Ruby — Gatineau (Québec), Canada · NEQ 2282529843",
@@ -119,6 +124,21 @@ const translations = {
     valueTwoText: "We follow your MAP policy and brand guidelines, use your approved images and descriptions, and report counterfeit or unauthorized listings.",
     valueThreeTitle: "A reliable partner",
     valueThreeText: "A registered Québec business with valid tax numbers, on-time payments, clean records and a direct contact who responds quickly.",
+    partnersCombinedEyebrow: "FOR BRANDS AND DISTRIBUTORS",
+    brandsTitle: "Are you a brand?",
+    brandsLead: "More sales in Canada, without losing control of your image.",
+    brandsList: "<li><strong>Authenticity:</strong> we buy only from you or your authorized distributors, with invoices to back every purchase.</li><li><strong>Reseller agreement:</strong> we will gladly sign your authorized reseller agreement, if you wish.</li><li><strong>Price respect:</strong> your minimum advertised price (MAP) policy is always respected.</li><li><strong>Listing protection:</strong> we monitor your Amazon.ca listings and report unauthorized sellers and counterfeits.</li><li><strong>Listings that sell:</strong> with your approval, we suggest better titles, photos and descriptions, written around real customer needs.</li><li><strong>Two storefronts:</strong> Amazon.ca and our own online store, in French and English.</li>",
+    distributorsTitle: "Are you a distributor or wholesaler?",
+    distributorsLead: "An organized customer, easy to serve.",
+    distributorsList: "<li><strong>Payment with order:</strong> by credit card or bank transfer, as you prefer. No credit needed.</li><li><strong>Complete file:</strong> business registration (NEQ), GST and QST numbers ready on request.</li><li><strong>One delivery address:</strong> our prep centre in Montréal.</li><li><strong>Respect for the pricing policies</strong> of the brands you represent.</li><li><strong>Dropship-ready:</strong> our online store can have orders shipped directly to the customer.</li><li><strong>A growing relationship:</strong> we add products from your catalogue over time.</li>",
+    partnersProof: "Already a customer of Canadian distributors, we sell products from well-known brands on Amazon.ca.",
+    partnersButton: "Write to us →",
+    formName: "Name", formCompany: "Company", formEmail: "Email", formType: "I am",
+    formTypeBrand: "A brand", formTypeDist: "A distributor or wholesaler", formTypeOther: "Other",
+    formMessage: "Message", formSend: "Send →",
+    formSending: "Sending…", formOk: "Thank you! Your message was sent. We will reply within 1 to 2 business days.",
+    formError: "Sorry, the message could not be sent. Please email us directly at info@distributionruby.ca.",
+    formMissing: "Please fill in your name, email and message.",
     contactEyebrow: 'Contact us',
     contactTitle: 'Let’s talk about your products',
     contactText: 'Do you represent a brand or distribute products that could be a good fit for the Canadian market? Get in touch with us.',
@@ -139,16 +159,6 @@ const translations = {
     stepThreeText: "Your products are received and prepared to Amazon standards by our prep centre in Montréal.",
     stepFourTitle: "Selling on Amazon.ca",
     stepFourText: "Your products are stored and shipped by Amazon (FBA): Prime-eligible, fast delivery and Amazon customer service.",
-    brandsEyebrow: "FOR BRAND OWNERS",
-    brandsTitle: "Are you a brand?",
-    brandsText: "We buy your products only from you or your authorized distributors, and we sell them while respecting your pricing policy and your image. If you are looking for a serious Canadian reseller on Amazon.ca, let's talk.",
-    brandsButton: "Request reseller authorization →",
-    brandsHref: "mailto:info@distributionruby.ca?subject=Reseller%20authorization",
-    distributorsEyebrow: "FOR DISTRIBUTORS",
-    distributorsTitle: "Are you a distributor?",
-    distributorsText: "We are an organized buyer: business documents ready, on-time payments and a willingness to add products from your catalogue as the relationship grows.",
-    distributorsButton: "Open an account with us →",
-    distributorsHref: "mailto:info@distributionruby.ca?subject=Account%20opening",
     documentsTitle: "Documents available on request",
     documentsText: "To make account setup easy, we provide on request: proof of business registration (NEQ) and our GST and QST numbers.",
     footerText: "© Distribution Ruby — Gatineau, Québec, Canada · NEQ 2282529843",
@@ -210,3 +220,21 @@ if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-mot
 }
 
 setLanguage('fr');
+
+const contactForm = document.getElementById('formulaire');
+if (contactForm) {
+  const status = contactForm.querySelector('.form-status');
+  const t = (k) => translations[document.documentElement.lang.startsWith('fr') ? 'fr' : 'en'][k];
+  document.querySelectorAll('a[href="#formulaire"]').forEach((a) => a.addEventListener('click', () => setTimeout(() => contactForm.querySelector('input[name="Nom"]').focus({ preventScroll: true }), 500)));
+  contactForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    if (!contactForm.Nom.value.trim() || !contactForm.email.value.trim() || !contactForm.Message.value.trim()) { status.textContent = t('formMissing'); status.className = 'form-status error'; return; }
+    status.textContent = t('formSending'); status.className = 'form-status';
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(contactForm) });
+      const data = await response.json();
+      if (!data.success) throw new Error();
+      contactForm.reset(); status.textContent = t('formOk'); status.className = 'form-status ok';
+    } catch (e) { status.textContent = t('formError'); status.className = 'form-status error'; }
+  });
+}
