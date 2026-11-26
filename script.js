@@ -186,7 +186,7 @@ document.querySelectorAll('.language-button').forEach((button) => {
 });
 
 const revealElements = document.querySelectorAll(
-  '.hero-copy > *, .logo-stage, .about > div, .about > p, .section-heading, .values article, .contact > div'
+  '.hero-copy > *, .logo-stage, .about > div, .about > p, .section-heading, .values article, .values .value-shop, .contact > div'
 );
 
 revealElements.forEach((element, index) => {

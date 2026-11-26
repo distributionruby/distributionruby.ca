@@ -278,10 +278,12 @@ footer { min-height: 86px; padding: 22px max(20px, calc((100% - 1180px)/2)); dis
 .shop-card img.shop-seal{width:84px;height:auto;object-fit:contain;margin-bottom:4px;filter:drop-shadow(0 6px 14px rgba(16,26,47,.18));}
 .shop-url{font-size:.85rem;color:var(--muted);font-weight:700;}
 .values{grid-template-columns:repeat(2,1fr);}
-.values .value-shop{min-height:220px;padding:30px;border-radius:18px;border:1px solid rgba(116,210,247,.5);background:linear-gradient(140deg,rgba(21,91,215,.55),rgba(55,185,239,.25));color:white;text-decoration:none;display:block;}
-.values .value-shop p{margin:0;color:#e4eefd;}
-.values .value-shop .feature-icon{margin-bottom:22px;}
-.values .value-shop .shop-link{display:inline-block;margin-top:14px;font-weight:800;color:white;}
+.values .value-shop{min-height:220px;padding:30px;position:relative;overflow:hidden;isolation:isolate;border:1px solid rgba(255,255,255,.12);border-radius:18px;background:rgba(255,255,255,.045);color:white;text-decoration:none;display:block;transition:background-color .25s ease,border-color .25s ease,box-shadow .25s ease;}
+.values .value-shop::before{content:"";position:absolute;z-index:-1;top:50%;right:0;width:min(240px,85%);height:240px;transform:translateY(-50%);background:url("watermark-shop.svg") no-repeat center/contain;opacity:.09;pointer-events:none;}
+.values .value-shop h3{color:white;}
+.values .value-shop p{margin:0;color:#b9c4d7;}
+.values .value-shop .shop-link{display:inline-block;margin-top:14px;font-weight:700;color:#74d2f7;}
+@media (hover:hover){.values .value-shop:hover{border-color:rgba(116,210,247,.58);background-color:rgba(21,91,215,.22);box-shadow:0 14px 34px rgba(13,78,185,.2);}}
 @media (max-width:860px){.shop-card{aspect-ratio:auto;flex-direction:column;align-items:stretch;background:#fbfdff}.shop-card picture{order:2;display:block;margin-top:-62%}.shop-card img.shop-bg{position:static;height:auto;width:100%}.shop-copy{order:1;padding-top:26px}.shop-copy p{font-size:.95rem}.shop-url{display:none}.values{grid-template-columns:1fr}}
 @media (max-width:520px){.shop-feature{width:min(100% - 28px,1180px);margin-top:24px}.shop-card{border-radius:22px}}
 @media (prefers-reduced-motion: reduce){.shop-card{transition:none}}
