@@ -313,3 +313,12 @@ footer { min-height: 86px; padding: 22px max(20px, calc((100% - 1180px)/2)); dis
 .form-status.error{color:#b42318;font-weight:700;}
 .contact{align-items:start;}
 @media (max-width:850px){.partner-combined{grid-template-columns:1fr;row-gap:30px}.partner-proof{margin-top:0!important}}
+@media (hover:hover){
+  .partner-types .partner-combined:hover{border-color:rgba(255,255,255,.86);background-color:#fff;box-shadow:0 20px 54px rgba(30,72,135,.1);}
+  .partner-list li{transition:background-color .2s ease;border-radius:10px;}
+  .partner-list li::before{transition:background-color .2s ease;}
+  .partner-list li:hover{background-color:#eef5ff;}
+  .partner-list li:hover::before{background:#1978e8;}
+}
+.partner-list li{padding:6px 8px 6px 34px;margin:-6px -8px;}
+.partner-list li::before{left:8px;top:calc(6px + .45em);}
