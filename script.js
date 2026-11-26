@@ -2,6 +2,16 @@
 
 const translations = {
   fr: {
+    shopEyebrow: "Notre boutique en ligne",
+    shopBannerAlt: "Bannière de la boutique Distribution Ruby : fournitures de bureau, scolaires et d'art",
+    shopSealAlt: "Sceau Ruby approuve",
+    shopKicker: "Fournitures de bureau, scolaires et d'art",
+    shopTitle: "Apprendre, créer, travailler : Ruby approuve",
+    shopText: "En plus d'Amazon.ca, Distribution Ruby vend dans sa propre boutique en ligne. Des marques authentiques, livrées partout au Canada.",
+    shopButton: "Magasiner",
+    valueFourTitle: "Deux canaux de vente",
+    valueFourText: "Vos produits profitent de deux vitrines : Amazon.ca et notre propre boutique en ligne, pour plus de visibilité au Canada.",
+    valueFourLink: "Voir la boutique →",
     brandLabel: 'Distribution Ruby, accueil',
     navLabel: 'Navigation principale',
     languageLabel: 'Choix de la langue',
@@ -68,6 +78,16 @@ const translations = {
     footerText: "© Distribution Ruby — Gatineau (Québec), Canada · NEQ 2282529843",
   },
   en: {
+    shopEyebrow: "Our online store",
+    shopBannerAlt: "Distribution Ruby store banner: office, school and art supplies",
+    shopSealAlt: "Ruby approved seal",
+    shopKicker: "Office, school and art supplies",
+    shopTitle: "Learn, create, work: Ruby approved",
+    shopText: "Beyond Amazon.ca, Distribution Ruby sells through its own online store. Authentic brands, shipped across Canada.",
+    shopButton: "Shop now",
+    valueFourTitle: "Two sales channels",
+    valueFourText: "Your products get two storefronts: Amazon.ca and our own online store, for more visibility across Canada.",
+    valueFourLink: "Visit the store →",
     brandLabel: 'Distribution Ruby, home',
     navLabel: 'Main navigation',
     languageLabel: 'Language selection',
