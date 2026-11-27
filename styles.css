@@ -351,3 +351,4 @@ footer { min-height: 86px; padding: 22px max(20px, calc((100% - 1180px)/2)); dis
 .contact-place{margin:18px 0 0!important;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:.95rem!important;}
 .contact-place svg{width:18px;height:18px;color:var(--blue);}
 .contact > div > p[data-i18n="contactText"]{margin:0;color:var(--muted);font-size:1.07rem;}
+@media (min-width:521px){.hero-actions{gap:10px}.hero-actions .button{flex:1 1 0;justify-content:center;padding-left:16px;gap:12px;white-space:nowrap}.hero-actions .button-secondary{flex-basis:auto}}
